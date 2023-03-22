@@ -30,7 +30,7 @@ public class Controller {
     public void pressButton(int slot){
         if (commands[slot] != null){
         commands[slot].execute();
-v        back.add(commands[slot]);
+        back.add(commands[slot]);
         }
     }
     
